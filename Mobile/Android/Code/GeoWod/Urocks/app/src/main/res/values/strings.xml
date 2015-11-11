@@ -1,0 +1,16 @@
+<resources>
+
+
+    <string name="app_name">Geowod</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+    <string name="app_id">1484029481890625</string>
+    <string name="API_KEY">AIzaSyCLHd5b88y0M0Ri0GvNeX17IsFxJ1Qj7aA</string>
+    <string name="create_geowod">Create Geowod</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_create">Create</string>
+
+
+</resources>

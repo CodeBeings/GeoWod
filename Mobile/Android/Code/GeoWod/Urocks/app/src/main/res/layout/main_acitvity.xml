@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/dashboard_invite_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            >
+
+            <include
+                android:id="@+id/dashboard_toolbar_top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                layout="@layout/toolbar_top" />
+
+
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <!-- <android.support.v7.widget.RecyclerView
+             android:id="@+id/hamburger_menu_recycler_view"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_gravity="left"
+             android:background="@android:color/holo_green_light" >
+         </android.support.v7.widget.RecyclerView>-->
+       <!-- <LinearLayout
+            android:id="@+id/drawer"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="left"
+            android:background="@android:color/holo_green_light">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="sample"
+                android:textSize="16sp" />
+        </LinearLayout>-->
+        <include
+            android:layout_height="match_parent"
+            android:layout_width="320dp"
+            android:layout_gravity="left"
+            layout="@layout/drawer_content"/>
+
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>

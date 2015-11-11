@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/toolbarcolor">
+
+        <location.geowood.com.RoundedImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile_white"
+            android:id="@+id/img"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/editText"
+            android:layout_toRightOf="@+id/img"
+            android:layout_toEndOf="@+id/img" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="email@address.com"
+            android:textColor="@android:color/white"
+            android:ems="10"
+            android:textSize="15sp"
+            android:id="@+id/editText1"
+            android:layout_below="@+id/editText"
+            android:layout_toRightOf="@+id/img"
+            android:layout_toEndOf="@+id/img" />
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        android:background="@android:color/white">
+
+    </ListView>
+    <!--<include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_home"
+        layout="@layout/home_drawer"
+        android:layout_marginTop="10dp"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_challenges"
+        layout="@layout/challenges_drawer"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_leaderboard"
+        layout="@layout/leaderboard_drawer"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_earnpoints"
+        layout="@layout/earnpoints_drawer"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_earnpoints"
+        layout="@layout/profile_drawer"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/drawer_logout"
+        layout="@layout/logout_drawer"/>
+-->
+
+</LinearLayout>
